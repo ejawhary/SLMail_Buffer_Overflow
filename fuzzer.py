@@ -15,7 +15,6 @@ while len(buff) <= max_buffer:
 	buff.append("A" * counter)
 	counter = counter + increment
 
-
 try:
 	for string in buff:
 		print(f"Fuzzing PASS with {len(string)} bytes.")
